@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/lib/leaflet.css" />
+    <script src="assets/lib/leaflet.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css">
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
+    <link rel="stylesheet" href="assets/lib/bootstrap.min.css">
+    <script src="assets/lib/jquery.min.js"></script>
+    <script src="assets/lib/bootstrap.min.js"></script>
+
+    <script src="assets/lib/underscore-min.js"></script>
+
+    <script src="assets/custom/api.js"></script>
+    <script src="assets/custom/helper.js"></script>
+    <script src="assets/custom/basemaps.js"></script>
+    <script src="assets/custom/popup.js"></script>
+    <script src="assets/custom/style.js"></script>
+    <script src="assets/custom/render.js"></script>
+
+    <script src="assets/data/countries.js"></script>
+
+    <style>
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+        }
+
+        .map {
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <iframe class="map" style="width: 100%; height:100%;"
+        src="https://ashad-gis.maps.arcgis.com/apps/Embed/index.html?webmap=197e534f7b8b42848dbe8b7caf0599d3&extent=-76.2032,39.6846,-74.5841,40.32&home=true&zoom=true&previewImage=false&scale=true&legendlayers=true&basemap_gallery=true&disable_scroll=false&theme=light"
+        frameborder="0"></iframe>
+</body>
+
+</html>
